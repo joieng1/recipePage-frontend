@@ -1,6 +1,5 @@
 import "./Home.css";
 import RecipeCard from "./RecipePreview";
-import recipeData from "../recipeData.json";
 import React, { useEffect, useState } from "react";
 
 interface Recipe {

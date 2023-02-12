@@ -18,6 +18,7 @@ function About() {
                         className="source-links ft-size"
                         href="https://preppykitchen.com/lemon-bars/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Lemon Bars Recipe
                     </a>
@@ -28,6 +29,7 @@ function About() {
                         src="https://preppykitchen.com/wp-content/uploads/2020/02/lemon-bars-blog-2a-1140x1271.jpg"
                         height="300"
                         width="300"
+                        alt="lemon bars"
                     />
                 </li>
                 <li className="text-center sources">
@@ -35,6 +37,7 @@ function About() {
                         className="source-links ft-size"
                         href="https://www.tasteofhome.com/recipes/poppy-seed-cake/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Poppy Cake Recipe
                     </a>
@@ -45,6 +48,7 @@ function About() {
                         src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps35606_TH1115229D33B-6.jpg"
                         height="300"
                         width="300"
+                        alt="poppy cake"
                     />
                 </li>
                 <li className="text-center sources">
@@ -52,6 +56,7 @@ function About() {
                         className="source-links ft-size"
                         href="https://tastesbetterfromscratch.com/peach-cobbler/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Peach Cobbler Recipe
                     </a>
@@ -62,6 +67,7 @@ function About() {
                         src="https://tastesbetterfromscratch.com/wp-content/uploads/2014/08/Peach-Cobbler-13.jpg"
                         height="300"
                         width="300"
+                        alt="peach cobbler"
                     />
                 </li>
             </ol>

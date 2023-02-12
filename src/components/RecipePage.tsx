@@ -1,5 +1,4 @@
 import "./RecipePage.css";
-import { useParams } from "react-router-dom";
 
 //only for utilizing the first object of recipeData which displays error if recipe does not exist
 import React, { useEffect, ChangeEvent, useState } from "react";
@@ -80,6 +79,7 @@ const RecipePage = (props: Recipe) => {
                         src={props.image}
                         height="300"
                         width="300"
+                        alt="recipe"
                     />
                     <div className="ingredients">
                         <h1 className="title-color">Ingredients</h1>

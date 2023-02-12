@@ -30,6 +30,7 @@ export default function RecipePreview(props: Recipe | ExternalRecipe) {
                     src={props.image}
                     width="250"
                     height="250"
+                    alt="recipe"
                 />
                 <p className="card-disc">{props.desc}</p>
                 <Link className="card-btn" to={address}>

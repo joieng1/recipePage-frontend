@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //App components
 import RecipePage from "./components/RecipePage";
-import recipeData from "./recipeData.json";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
