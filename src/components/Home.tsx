@@ -13,7 +13,10 @@ interface Recipe {
 function Home() {
     const [externalRecipes, setExternalRecipes] = useState<Recipe[]>([]);
     const [myRecipes, setMyRecipes] = useState<Recipe[]>([]);
+    const [loading, setLoading] = useState(false);
+
     useEffect(() => {
+        setLoading(true);
         fetch("https://bootcamp-milestone-4.onrender.com/recipe")
             .then((res) => res.json())
             .then((data) => {
@@ -23,11 +26,13 @@ function Home() {
             .then((res) => res.json())
             .then((data) => {
                 setMyRecipes(data);
+                setLoading(false);
             });
     }, []);
     return (
         <main>
             <h1 className="title">Check out some of our favorites!</h1>
+            <h1 className="loading">{loading ? <>Loading...</> : <></>}</h1>
             {/* <!-- list of recipes --> */}
             <div className="container-recipes">
                 {myRecipes.map((recipe) => (
